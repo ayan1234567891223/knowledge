@@ -4,7 +4,7 @@ import numpy as np
 st.title("Population")
 
 DATE_COLUMN = 'Capital/Population'
-DATA_URL = ('C:/Users/Acer/Desktop/streamlit/pages/world_population.csv')
+DATA_URL = ('./world_population.csv')
 
 @st.cache_data
 def load_data(nrows):
