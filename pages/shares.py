@@ -20,7 +20,7 @@ st.title("Shares Price")
 
 
 
-DATA_URL = ('C:/Users/Acer/Desktop/streamlit/pages/ADANIPORTS.csv')
+DATA_URL = ('./ADANIPORTS.csv')
 
 @st.cache_data
 def load_data(nrows):
@@ -56,7 +56,7 @@ data_load_state.text("Done! (using st.cache_data)")
 
 
 
-DATA_URL2 = ('C:/Users/Acer/Desktop/streamlit/pages/ASIANPAINT.csv')
+DATA_URL2 = ('./ASIANPAINT.csv')
 
 @st.cache_data
 def load_data2(nrows):
@@ -93,7 +93,7 @@ data_load_state.text("Done! (using st.cache_data)")
 
 
 
-DATA_URL3 = ('C:/Users/Acer/Desktop/streamlit/pages/AXISBANK.csv')
+DATA_URL3 = ('./AXISBANK.csv')
 
 @st.cache_data
 def load_data2(nrows):
@@ -123,7 +123,7 @@ data_load_state.text("Done! (using st.cache_data)")
 
 
 
-DATA_URL4 = ('C:/Users/Acer/Desktop/streamlit/pages/BAJAJFINSV.csv')
+DATA_URL4 = ('./BAJAJFINSV.csv')
 
 @st.cache_data
 def load_data2(nrows):
@@ -159,7 +159,7 @@ data_load_state.text("Done! (using st.cache_data)")
 
 
 
-DATA_URL5 = ('C:/Users/Acer/Desktop/streamlit/pages/BAJAJ-AUTO.csv')
+DATA_URL5 = ('./BAJAJ-AUTO.csv')
 
 @st.cache_data
 def load_data2(nrows):
@@ -197,7 +197,7 @@ data_load_state.text("Done! (using st.cache_data)")
 
 
 
-DATA_URL6 = ('C:/Users/Acer/Desktop/streamlit/pages/SUNPHARMA.csv')
+DATA_URL6 = ('./SUNPHARMA.csv')
 
 @st.cache_data
 def load_data2(nrows):
